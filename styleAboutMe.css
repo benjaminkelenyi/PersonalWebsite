@@ -1,0 +1,58 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url(img/aboutMe.jpg) no-repeat;
+  background-size: cover;
+}
+.box h3{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 20px;
+	letter-spacing: 3px;
+	font-weight: 100;
+}
+.box h4{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 20px;
+	letter-spacing: 3px;
+	font-weight: 100;
+}
+.slideshow {
+    margin: 0px auto;
+}
+
+/* The navigation bar */
+.navbar {
+    background-color: transparent;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    left: 34%; 
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Century Gothic',sans-serif;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.box{
+  width: 1000px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 60px;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+}
+
+
